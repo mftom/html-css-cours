@@ -1,6 +1,69 @@
-Exercice 4
-
-Consignes :
-- Recopier les exercices 1 et 2 ci-dessous
-- Les adapter pour que les 2 exercices soient sur 2 colonnes différentes sur Desktop, et sur une seule colonne sur Mobile
-- Adapter le formulaire pour qu'il respecte les guidelines Bootstrap sur les formulaires
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  	<meta charset="utf-8">
+  	<title>exercice4</title>
+</head>
+<body>
+	<div class='row'>
+	<div class="col-md-6">
+	<h1>exercice 2</h1>
+	<h2>consignes</h2>
+	<p> Recopier les exercices 1 et 2 ci-dessous - Les adapter pour que les 2 exercices soient sur 2 colonnes différentes sur Desktop, et sur une seule colonne sur Mobile - Adapter le formulaire pour qu'il respecte les guidelines Bootstrap sur les formulaires </p>
+	<article>
+		<ul>
+			<li>
+				<p> prénom </p>
+				<input type='text' id='firstname' name='firstname'/>
+			</li>
+			<li>
+				<p> nom </p>
+				<input type='text' id='lastname' name='lastname'/>
+			</li>
+			<li>
+				<p> email </p>
+				<input type='email' id='email' name='email'/>
+			</li>
+			<li>
+				<p> mot de passe </p>
+				<input type='password' id='password' name='password'/>
+			</li>
+			<li>
+				<p> Veux-tu raquer? </p>
+	  			<input type='radio' id='oui' name='choix' value='oui'/> <label for='oui'>oui</label>
+	  			<input type='radio' id='non' name='choix' value='non'/> <label for='non'>non</label>
+	  		</li>
+	  		<li>
+	  		<p> J'accepte les conditions d'utilisation </p>
+	  		<input type='checkbox' id='boutton' name='validation' style="width:50px; height:50px;" />
+	  		</li>
+	  	</ul>
+	</article>
+</div>
+<div class="col-md-6">
+	<h1>exercice 1</h1>
+	<h3>consignes</h3>
+	<p>En-dessous, regrouper les noms de balises vues jusqu'ici dans un tableau avec en-têtes ayant pour colonnes : Balise,&nbsp;Contenu. Dans la colonne contenu spécifier la ou les balises qu'il est possible d'insérer à l'intérieur, ou "texte" (pour les titres par exemple).</p>
+	<article>
+		<table bg=blue>
+			<tr>
+				<th> Balise </th>
+				<th> Contenu </th>
+			</tr>
+  			<tr>
+  				<td> &lt;div&gt; </td>
+  				<td> crée un bloc de sketuveux </td>
+  			</tr>
+  			<tr>
+  				<td> &lt;ul&gt; </td>
+  				<td> crée une liste </td>
+  			</tr>
+  			<tr>
+  				<td> &lt;p;&gt; </td>
+  				<td> crée un paragraphe </td>
+  			</tr>
+  		</table>
+  	</article>
+</div>
+</div>
+</body>
